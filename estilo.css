@@ -5,25 +5,32 @@
 *{
     margin: 0;
     padding: 0;
+     box-sizing: border-box;
 }
 
 
 
-body html{
+body, html{
     width: 100vw;
+    background-color: #8EA3BF;
+    
+    
 
 }
+
 
 img{
-    max-width: 100%;
+
+    max-width: 70%;
+     display: block;
     height: auto;
-    display: block;
+    margin: auto;
 }
 
 header{
     background-color: #0f172a;
     color: white;
-    padding: 16px 10px;
+    padding: 12px 8px;
     min-width: 380px;
     min-height: 90px;
 }
@@ -37,7 +44,8 @@ header h1{
 }
 
 nav{
-    margin-left: 5px;
+
+    text-align: center;
 
 
 }   
@@ -79,27 +87,29 @@ a:hover{
 
     main{
         min-width: 380px;
-        max-width: 950px;
+        margin-left: 10px auto;
+        
 
 
     }
 
     section.banner{
-        height: 80vh;
+        height: 90vh;
         background-image: url('imagens/aivao.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: right top;
-        
+        background-position: right center;
+     
 
-
-        
     }
+
+
 
     div h2{
         text-align: center;
         padding: 8px;
     }
+
     div p{
         
         text-align: center;
@@ -113,4 +123,61 @@ a:hover{
         text-indent: 8px;
     
     }
+
+    .title{
+        font-size: 2em;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    section#destino{
+        margin:  12px auto;
+        padding: 15px;
+        text-align: center;
+        
+        max-width: 1200px;
+        min-width: 300px;
+        background-color: #69688c63;
+        border: solid 2px #69688c8f;
+        box-sizing: border-box;
+    
+
+    }
+
+    article.card{
+    display: inline-block;
+    width: 30%;
+    margin-left: 10px;
+    vertical-align: middle; 
+
+
+        
+    }
+
+
+    .card > h3{
+        text-indent: 20px;
+        padding: 8px;
+    }
+
+    .card > p{
+        padding: 10px;
+        color: white;
+        text-indent: 15px;
+    }
+
+
+
+
+    footer{
+        background-color: #081022;
+        padding: 10px;
+    }
+    
+    footer p{
+        color: white;
+        text-align: center;
+    }
+
+
 
